@@ -7,6 +7,10 @@ int main(){
 for(a=0;a<10;a++)
 
 while(a*a+b*b!=c*c)
+continue;
 
 
+}
+cout<<a<<b<<c<<endl;
+return 0;
 }
