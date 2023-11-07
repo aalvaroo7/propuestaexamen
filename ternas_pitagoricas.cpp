@@ -6,14 +6,14 @@ int main(){
     int a;
     cout<<"ingrese el primer lado"<<endl;
     cin>>a;
-for(a=0;a<10;a++){
-if(a=3,5,6,8)
-    continue;
-    int b
-cout<<"ingrese el segundo lado"<<endl;
-cin>>b;
-    for(b=0;b<20;b++) {
-        while (b != 4, 8, 12, 15)
+for(a=0;a<10;a++) {
+    if (a == 3 || a == 5 || a == 6 || a == 8)
+        continue;
+    int b;
+    cout << "ingrese el segundo lado" << endl;
+    cin >> b;
+    for (b = 0; b < 20; b++) {
+        while (b==4 8, 12, 15)
             continue;
         int c;
         c = sqrt(a * a + b * b);
