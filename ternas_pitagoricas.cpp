@@ -9,6 +9,11 @@ cout<<"ingrese el primer lado"<<endl;
 cin>>a;
 while(a!=3,5,6,8)
     break;
+    int b;
+    for(b=0;b<20;b++)
+        cout<<"ingrese el segundo lado"<<endl;
+    cin>>b;
+
 
 
 
