@@ -8,13 +8,17 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Ingrese el valor máximo para c: ";
+    cout << "Ingrese el valor de a: ";
     cin >> n;
-    for (int c = 1; c <= n; c++) {
-        for (int b = 1; b < c; b++) {
-            for (int a = 1; a < b; a++) {
-                if (a*a + b*b == c*c) {
+    for (int a = 1; a <= n; a++) {
+        for (int b = 1; b < a; b++) {
+            for (int c = 1; c < b; a++) {
+                if (a * a + b * b == c * c) {
                     cout << a << " " << b << " " << c << endl;
+                    return 0;
+
+
                 }
             }
         }
+    }
