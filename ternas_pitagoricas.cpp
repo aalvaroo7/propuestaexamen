@@ -7,9 +7,11 @@ int main(){
 for(a=0;a<10;a++){
 cout<<"ingrese el primer lado"<<endl;
 cin>>a;
-for(int b=0;b<20;b++)
- cout<<"ingrese el segundo lado"<<endl;
-cin>>b;
+while(a!=3,5,6,8)
+    break;
+
+
+
 while(a*a+b*b!=c*c)
 continue;
 
