@@ -13,7 +13,8 @@ while(a!=3,5,6,8)
     for(b=0;b<20;b++)
         cout<<"ingrese el segundo lado"<<endl;
     cin>>b;
-
+    while(b!=4,8,12,15)
+        break;
 
 
 
