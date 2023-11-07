@@ -15,7 +15,8 @@ while(a!=3,5,6,8)
     cin>>b;
     while(b!=4,8,12,15)
         break;
-
+int c;
+c=sqrt(a*a+b*b);
 
 
 
