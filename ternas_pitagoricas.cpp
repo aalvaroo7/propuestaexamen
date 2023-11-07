@@ -4,17 +4,15 @@ using namespace std;
 
 int main(){
     int a;
+    cout<<"ingrese el primer lado"<<endl;
+    cin>>a;
 for(a=0;a<10;a++){
-cout<<"ingrese el primer lado"<<endl;
-cin>>a;
-while(a!=3,5,6,8)
-    break;
+if(a=3,5,6,8)
+    continue
     int b;
     for(b=0;b<20;b++){
-        cout<<"ingrese el segundo lado"<<endl;
-    cin>>b;
     while(b!=4,8,12,15)
-        break;
+        continue;
 int c;
 c=sqrt(a*a+b*b);
 cout<<"el triangulo tiene lados"<<a<<","<<b<<","<<c<<endl;
