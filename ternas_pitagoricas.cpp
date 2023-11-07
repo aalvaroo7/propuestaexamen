@@ -17,8 +17,8 @@ while(a!=3,5,6,8)
         break;
 int c;
 c=sqrt(a*a+b*b);
-}
-cout<<"el triangulo se compone por los lados"<<a<<b<<c<<endl;
+cout<<"el triangulo tiene lados"<<a<<","<<b<<","<<c<<endl;
+
 }
 return 0;
 }
