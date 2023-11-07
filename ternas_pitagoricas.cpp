@@ -12,13 +12,13 @@ if(a=3,5,6,8)
     int b
 cout<<"ingrese el segundo lado"<<endl;
 cin>>b;
-    for(b=0;b<20;b++){
-    while(b!=4,8,12,15)
-        continue;
-int c;
-c=sqrt(a*a+b*b);
-cout<<"el triangulo tiene lados"<<a<<","<<b<<","<<c<<endl;
-
+    for(b=0;b<20;b++) {
+        while (b != 4, 8, 12, 15)
+            continue;
+        int c;
+        c = sqrt(a * a + b * b);
+        cout << "el triangulo tiene lados" << a << "," << b << "," << c << endl;
+    }
 }
 return 0;
 }
